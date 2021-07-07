@@ -3,7 +3,7 @@ const livros = [
         id: 1,
         nome: "digital minimalism",
         autor: "cal newport",
-        categoria: "produtividade e estilo de vida",
+        categoria: "lifestyle",
         paginas: 254,
         recomenda: false,
         leu: false,
@@ -12,7 +12,7 @@ const livros = [
         id: 2,
         nome: "como fazer amigos e influenciar pessoas",
         autor: "dale carnegie",
-        categoria: "produtividade e estilo de vida",
+        categoria: "lifestyle",
         paginas: 262,
         recomenda: true,
         leu: true,
@@ -30,7 +30,7 @@ const livros = [
         id: 4,
         nome: "raciocínio lógico e matemática para concursos",
         autor: "cabral e nunes",
-        categoria: "concursos públicos",
+        categoria: "concursos publicos",
         paginas: 254,
         recomenda: false,
         leu: false,
@@ -48,7 +48,7 @@ const livros = [
         id: 6,
         nome: "uzumaki",
         autor: "junji ito",
-        categoria: "mangá",
+        categoria: "manga",
         paginas: 667,
         recomenda: true,
         leu: true,
@@ -60,5 +60,4 @@ module.exports = livros
 
 //para ver todos os elementos de uma categoria, use esse comando do ES6:
 // const categoria = livros.map(value => value.categoria)
-
 // console.log (categoria)

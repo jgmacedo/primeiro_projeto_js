@@ -11,11 +11,15 @@ const entradaInicial = readline.question("Deseja buscar um livro?S/N")
 
 if (entradaInicial.toLocaleUpperCase() === 'S'){
     console.log("essas são as categorias disponíveis:");
-    console.log(('produtividade e estilo de vida','/arte e cultura','/concursos públicos','/mangá'))
+    console.log('lifestyle','/arte e cultura','/concursos publicos','/manga')
 
     const entradaCategoria = readline.question('Qual categoria escolhida:')
 
     const retorno = livros.filter(livro => livro.categoria === entradaCategoria)
 
     console.table(retorno)
+} else{
+    const livrosOrdenados = livros.sort((a,b)=> a.paginas - b.paginas)
+    console.log('Essas são todas as obras disponíveis:')
+    console.table('Esses todos os livros disponíveis')
 }
