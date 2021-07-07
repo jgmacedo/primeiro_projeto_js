@@ -57,6 +57,7 @@ const livros = [
 
 
 module.exports = livros
+
 //para ver todos os elementos de uma categoria, use esse comando do ES6:
 // const categoria = livros.map(value => value.categoria)
 
