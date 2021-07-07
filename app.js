@@ -21,5 +21,5 @@ if (entradaInicial.toLocaleUpperCase() === 'S'){
 } else{
     const livrosOrdenados = livros.sort((a,b)=> a.paginas - b.paginas)
     console.log('Essas são todas as obras disponíveis:')
-    console.table('Esses todos os livros disponíveis')
+    console.table(livrosOrdenados)
 }
